@@ -51,6 +51,7 @@
             'sec-sponsors': 'Sponsors & Supporters',
             'sponsors-desc': 'The companies, services, and supporters backing this festival.<br>We deeply appreciate their warm support.',
             'sponsor-dtc': 'DTC Inc.',
+            'sponsor-sapporo': 'Supported by: City of Sapporo',
             // Divisions
             'sec-divisions': 'Divisions',
             'divisions-desc': 'We welcome your AI film in two divisions. A special invitation slot, curated by the organizers, will also be screened at the venue.',
@@ -156,6 +157,7 @@
             'footer-link-apply': 'How to Apply',
             'footer-org': 'Organizer: Sapporo Sugoi AI-kai',
             'footer-venue': 'Venue support: Deep Tech CORE SAPPORO',
+            'footer-matsuri': 'This film festival is held as part of Sapporo Sugoi AI Matsuri 2026 Summer',
             'footer-disclaimer': '* This event is run by individual volunteers and does not represent any company or commercial organization.'
         },
         zh: {
@@ -199,6 +201,7 @@
             // Sponsors
             'sec-sponsors': '协办企业・服务・后援',
             'sponsors-desc': '以下是支持本电影节的企业、服务与后援单位。<br>衷心感谢各位的热情协助。',
+            'sponsor-sapporo': '后援：札幌市',
             // Divisions
             'sec-divisions': '征集单元',
             'divisions-desc': '我们通过两个单元征集你的AI影像作品。此外，还设有由主办方精选作品的特别邀请放映单元。',
@@ -301,6 +304,7 @@
             'footer-link-apply': '报名方式',
             'footer-org': '主办：札幌超赞AI会',
             'footer-venue': '会场协助：Deep Tech CORE SAPPORO',
+            'footer-matsuri': '本电影节作为"札幌超赞AI祭 2026夏"的一部分举办',
             'footer-disclaimer': '※本活动为个人志愿者活动，不代表任何特定企业或营利团体。'
         }
     };
