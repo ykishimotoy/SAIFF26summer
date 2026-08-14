@@ -418,9 +418,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.pushState(null, '', this.getAttribute('href'));
             }
         });
     });
+
+    // Jump to section when URL contains a hash (e.g. /#apply),
+    // after all assets load so the scroll position isn't thrown off by layout shifts
+    if (window.location.hash) {
+        const scrollToHash = () => {
+            const target = document.getElementById(window.location.hash.slice(1));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        };
+        window.addEventListener('load', () => setTimeout(scrollToHash, 100));
+    }
 
     // Film particle parallax on hero
     const hero = document.querySelector('.hero');
