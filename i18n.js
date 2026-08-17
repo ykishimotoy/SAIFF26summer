@@ -51,6 +51,7 @@
             'sec-sponsors': 'Sponsors & Supporters',
             'sponsors-desc': 'The companies, services, and supporters backing this festival.<br>We deeply appreciate their warm support.',
             'sponsor-hp': 'HP Japan Inc.',
+            'sponsor-eques': 'EQUES Inc.',
             'sponsor-dtc': 'DTC Inc.',
             'sponsor-sapporo': 'Supported by: City of Sapporo',
             // Divisions
