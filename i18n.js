@@ -50,6 +50,7 @@
             // Sponsors
             'sec-sponsors': 'Sponsors & Supporters',
             'sponsors-desc': 'The companies, services, and supporters backing this festival.<br>We deeply appreciate their warm support.',
+            'sponsor-nttdmse': 'NTT DATA MSE Corporation',
             'sponsor-hp': 'HP Japan Inc.',
             'sponsor-eques': 'EQUES Inc.',
             'sponsor-dtc': 'DTC Inc.',
