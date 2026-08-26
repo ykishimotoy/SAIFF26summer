@@ -48,13 +48,13 @@
             'feature-2': 'First-timers are more than welcome',
             'feature-3': 'Venue screening + YouTube streaming',
             // Sponsors
-            'sec-sponsors': 'Sponsors & Supporters',
-            'sponsors-desc': 'The companies, services, and supporters backing this festival.<br>We deeply appreciate their warm support.',
+            'sec-sponsors': 'Sponsors',
+            'sponsors-desc': 'The sponsor companies, organizations, and services supporting this festival.<br>We deeply appreciate their warm support.',
             'sponsor-nttdmse': 'NTT DATA MSE Corporation',
             'sponsor-hp': 'HP Japan Inc.',
             'sponsor-eques': 'EQUES Inc.',
             'sponsor-dtc': 'DTC Inc.',
-            'sponsor-hanamii': 'HANAMII Inc.',
+            'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': 'Supported by: City of Sapporo',
             // Divisions
             'sec-divisions': 'Divisions',
@@ -203,8 +203,8 @@
             'feature-2': '热烈欢迎首次挑战的朋友',
             'feature-3': '会场放映 ＋ YouTube直播',
             // Sponsors
-            'sec-sponsors': '协办企业・服务・后援',
-            'sponsors-desc': '以下是支持本电影节的企业、服务与后援单位。<br>衷心感谢各位的热情协助。',
+            'sec-sponsors': '赞助商',
+            'sponsors-desc': '以下是支持本电影节的赞助企业、团体与服务。<br>衷心感谢各位的热情支持。',
             'sponsor-sapporo': '后援：札幌市',
             // Divisions
             'sec-divisions': '征集单元',
