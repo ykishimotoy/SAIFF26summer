@@ -54,6 +54,7 @@
             'sponsor-hp': 'HP Japan Inc.',
             'sponsor-eques': 'EQUES Inc.',
             'sponsor-dtc': 'DTC Inc.',
+            'sponsor-hanamii': 'HANAMII Inc.',
             'sponsor-sapporo': 'Supported by: City of Sapporo',
             // Divisions
             'sec-divisions': 'Divisions',
