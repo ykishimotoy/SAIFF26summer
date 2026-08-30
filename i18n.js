@@ -206,6 +206,12 @@
             // Sponsors
             'sec-sponsors': '赞助商',
             'sponsors-desc': '以下是支持本电影节的赞助企业、团体与服务。<br>衷心感谢各位的热情支持。',
+            'sponsor-nttdmse': 'NTT DATA MSE株式会社',
+            'sponsor-hp': '日本惠普株式会社',
+            'sponsor-eques': 'EQUES株式会社',
+            'sponsor-dtc': 'DTC株式会社',
+            'sponsor-localhosthq': 'LocalHostHQ',
+            'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': '后援：札幌市',
             // Divisions
             'sec-divisions': '征集单元',
@@ -283,12 +289,15 @@
             // Judges
             'sec-judges': '评委介绍',
             'judges-desc': '除主办者AI武士外，还有4位创作者与工程师作为评委观赏大家的作品。',
+            'judge1-name': 'Rina Onodera',
             'judge1-title': 'XR创作者',
             'judge1-comment': '这不是商业比赛，而是一场"祭典"。这里是能以自己的视角、全力表达内心呐喊的地方。AI会为这种表达带来怎样的可能性，我现在就已经迫不及待了。来吧，让我们办一场用灵魂对话的最棒的祭典！',
+            'judge2-name': 'Milia（米莉亚）',
             'judge2-title': '跨越现实与虚拟的创作歌手',
             'judge2-comment': '感谢邀请我担任评委！<br>我一直在虚拟空间制作MV和音乐剧，正好想尝试用AI制作影像，这是个绝佳的机会。<br>非常期待能遇见怎样的作品。',
             'judge3-title': 'VketReal in 札幌 执行委员会 委员长',
             'judge3-comment': '剧本、演出、剪辑……AI有各种各样的用法。期待大家在技术上的巧思，以及用它讲述怎样的故事！！',
+            'judge4-name': '工藤僚马（Bonjiko）',
             'judge4-title': '超赞AI会副代表',
             'judge4-comment': '从令人惊叹的创意，到贴近人心的故事，期待与各种作品相遇！在AI这一全新的表达方式中，大家一起开心地玩吧！',
             // CTA
