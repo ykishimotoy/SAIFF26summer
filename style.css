@@ -2067,6 +2067,11 @@ body {
     transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* モバイル用の複製ボタンはPCでは非表示 */
+.screening-note-link.note-sp {
+    display: none;
+}
+
 .screening-note-link:hover {
     background: var(--film-cyan);
     color: var(--dark-bg);
@@ -2188,6 +2193,22 @@ body {
     .screening-table td:last-child {
         text-align: left;
         color: var(--film-cyan);
+    }
+
+    /* オープニングムービーの行だけ特殊扱い:
+       PC用ボタンは隠し、カード最下段に全幅の行としてボタンを通常フローで差し込む */
+    .screening-row-opening td:first-child br,
+    .screening-row-opening .note-pc {
+        display: none;
+    }
+
+    .screening-note-link.note-sp {
+        display: inline-block;
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin: 0.45rem 0 0.35rem;
+        padding: 0.4rem 1.6rem;
+        white-space: nowrap;
     }
 }
 
