@@ -2052,6 +2052,27 @@ body {
     white-space: nowrap;
 }
 
+/* セル内の補足ボタン（オープニングムービー制作の記録など） */
+.screening-note-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.85rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--film-cyan);
+    border: 1px solid rgba(0, 212, 255, 0.5);
+    border-radius: 999px;
+    text-decoration: none;
+    background: rgba(0, 212, 255, 0.08);
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.screening-note-link:hover {
+    background: var(--film-cyan);
+    color: var(--dark-bg);
+    box-shadow: 0 0 16px rgba(0, 212, 255, 0.4);
+}
+
 /* 開場挨拶・表彰・幕間などの特殊行 */
 .screening-row-special td {
     color: var(--film-gold);
@@ -2222,4 +2243,207 @@ body {
         font-size: 0.75rem;
         padding: 0.4rem 0.7rem;
     }
+}
+
+/* ===== Opening Movie Page (opening.html) ===== */
+.op-story {
+    max-width: 720px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 2.1;
+}
+
+.op-story p {
+    margin-bottom: 1.6rem;
+}
+
+.op-emphasis {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 2.5rem 0;
+}
+
+.op-hands {
+    text-align: center;
+    margin: 2.5rem auto;
+}
+
+.op-hands p {
+    margin-bottom: 0.7rem;
+    color: var(--text-primary);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.op-motif {
+    color: var(--film-cyan);
+    font-weight: 700;
+}
+
+/* details / summary */
+.op-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 0 1.75rem;
+}
+
+.op-details[open] {
+    padding-bottom: 2rem;
+}
+
+.op-details > summary {
+    cursor: pointer;
+    padding: 1.4rem 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.op-details > summary:hover {
+    color: var(--film-cyan);
+}
+
+.op-details-note {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.op-details h3 {
+    color: var(--film-cyan);
+    font-size: 1.15rem;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.25);
+}
+
+.op-details h4 {
+    color: var(--text-primary);
+    font-size: 1rem;
+    margin: 2rem 0 0.8rem;
+}
+
+.op-details p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.9;
+    margin-bottom: 1.1rem;
+}
+
+.op-details strong {
+    color: var(--text-primary);
+}
+
+.op-flow {
+    background: rgba(0, 212, 255, 0.06);
+    border-left: 4px solid var(--film-cyan);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+/* nested details */
+.op-subdetails {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 0 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.op-subdetails[open] {
+    padding-bottom: 1.25rem;
+}
+
+.op-subdetails > summary {
+    cursor: pointer;
+    padding: 1rem 0;
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.op-subdetails > summary:hover {
+    color: var(--film-cyan);
+}
+
+/* generation history links */
+.op-links {
+    list-style: none;
+    margin: 1rem 0 1.5rem;
+}
+
+.op-links li {
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    word-break: break-all;
+}
+
+.op-links li:last-child {
+    border-bottom: none;
+}
+
+.op-links a {
+    color: var(--film-cyan);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.op-links a:hover {
+    opacity: 0.75;
+}
+
+.op-work-name {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+/* video generation prompt */
+.op-prompt {
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1.1rem 1.25rem;
+    margin: 0.75rem 0 1.5rem;
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+/* mail excerpt */
+.op-mail {
+    border-left: 3px solid rgba(255, 255, 255, 0.2);
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    margin: 1rem 0;
+}
+
+.op-mail p {
+    font-size: 0.9rem;
+}
+
+.op-mail-subject {
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
 }
